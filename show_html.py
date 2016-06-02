@@ -1,6 +1,7 @@
 from html.parser import HTMLParser
 from bs4 import BeautifulSoup
 import random
+import storage
 
 html_path = "../../prova.html"
 
@@ -10,9 +11,13 @@ def handle_htmlpage():
 
     #serve a parsare l'html e a modificare i contenuti dei tag e gli eventuali attributi
     soup = BeautifulSoup(open(html_path), 'lxml')
-    tag = soup.p #mi riferisco al paragrafo dell'html attraverso il tag 'p'
-    tag.string = "madonnaaaaaa" #modifico il contenuto del tag con una nuova stringa
-    tag['style'] = "background-color:"+color+";color:white"
+    contenuto = soup.p #mi riferisco al paragrafo dell'html attraverso il tag 'p'
+
+    # modifico il contenuto del tag con una nuova stringa
+    contenuto.string =  storage.get_paragr_descr_from_id("../texts/fpn-andrews-andrews.txt", 9)
+    contenuto['style'] = "background-color:"+color+";color:white"
+    topic = soup.h1
+    topic['style'] = "background-color:"+color+";color:white"
 
     with open(html_path, "wb") as prova:
         prova.write(soup.prettify("utf-8"))
