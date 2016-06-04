@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 import random
 import storage
 
-html_path = "../../prova.html"
+
+html_path = "prova.html"
 
 def handle_htmlpage():
 
@@ -18,6 +19,7 @@ def handle_htmlpage():
     contenuto['style'] = "background-color:"+color+";color:white"
     topic = soup.h1
     topic['style'] = "background-color:"+color+";color:white"
+
 
     with open(html_path, "wb") as prova:
         prova.write(soup.prettify("utf-8"))
