@@ -27,7 +27,7 @@ def insert_terms_ref(dict):
 def get_stemmed_terms_paragraph():
 
     token_list_paragraph = []
-    cursor = paragraphs_coll.find(None, {"tokens": 1,'_id': 0})  # metto None perche' sto facendo una selezione su niente quindi voglio che mi restituisca tutto
+    cursor = paragraphs_coll.find(None, {"tokens": 1, '_id': 0})  # metto None perche' sto facendo una selezione su niente quindi voglio che mi restituisca tutto
     for element in cursor:
         token_list_paragraph.append(element['tokens'])  #e' una lista di liste in cui ogni lista interna ha i token
         # riferiti ad ogni singolo paragrafo

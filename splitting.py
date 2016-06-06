@@ -19,8 +19,10 @@ def process_stories():
             parags = string.split(sep='\n') #divide in paragrafi mediante il separatore di 'a capo'
             print("Creazione collezione paragrafi...")
             for p in parags:
-                stemmed_list = processing.process_string(p)  # applico il processo base a ogni paragrafo
-                storage.insert_paragraph(file, p, parags.index(p), stemmed_list)  # memorizzo tutto con mongodb
+                if p and (not p.isspace()):
+                    print(p)
+                    stemmed_list = processing.process_string(p)  # applico il processo base a ogni paragrafo
+                    storage.insert_paragraph(file, p, parags.index(p), stemmed_list)  # memorizzo tutto con mongodb
     return
 
 

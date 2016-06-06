@@ -6,7 +6,9 @@ import storage
 
 html_path = "prova.html"
 
-def handle_htmlpage():
+def handle_htmlpage(left, right):
+
+    map_color = set_topic_random_color()
 
     color = "#%06x" % random.randint(0, 0xFFFFFF) #genera un colore random (per provare per quando dovro' darlo ai topic)
 
@@ -15,10 +17,11 @@ def handle_htmlpage():
     contenuto = soup.p #mi riferisco al paragrafo dell'html attraverso il tag 'p'
 
     # modifico il contenuto del tag con una nuova stringa
-    contenuto.string =  storage.get_paragr_descr_from_id("../texts/fpn-andrews-andrews.txt", 9)
-    contenuto['style'] = "background-color:"+color+";color:white"
+    contenuto.string =  left
+    contenuto['style'] = "background-color:"+map_color[right]+";color:white"
     topic = soup.h1
-    topic['style'] = "background-color:"+color+";color:white"
+    topic.string = str(right)
+    topic['style'] = "background-color:"+map_color[right]+";color:white"
 
 
     with open(html_path, "wb") as prova:
@@ -26,7 +29,18 @@ def handle_htmlpage():
 
     return
 
-handle_htmlpage()
+
+def set_topic_random_color():
+    map_topic_color = {}
+
+    color = "#%06x" % random.randint(0, 0xFFFFFF)  # colore random
+
+    for i in range(100):
+        map_topic_color[i] = color
+
+    return map_topic_color
+
+
 
 with open(html_path, "r") as prova:
     print(prova.read())

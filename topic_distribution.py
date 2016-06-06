@@ -1,5 +1,6 @@
 from gensim import corpora, models
 import storage
+import random
 
 dictionary = {}
 
@@ -12,7 +13,6 @@ def calculate_topic_distribution():
 
     # classe che prende un corpus il dizionario e il numero di topic (prende anche un parametro opzionale "iteration"
     # che se aumentato serve a migliorare il risultato)
-
     Lda_model = models.LdaModel(corpus, id2word=dictionary, num_topics=100)
 
     corpus_Lda = Lda_model[corpus]
@@ -25,11 +25,16 @@ def create_dictionary():
 
     stemmed = storage.get_stemmed_terms_paragraph()
     dictionary = corpora.Dictionary(stemmed)
+
     corpus = [dictionary.doc2bow(token) for token in stemmed]
+
+    for doc in corpus[:10]:
+        print(corpus.index(doc))
+
     # salvo il dizionario in una specifica cartella così da utilizzarlo eventualmente in futuro
     # dictionary.save('tmp/dictionary.dict')
     print("Dizionario creato.")
-    return corpus,dictionary
+    return corpus, dictionary
 
 def load_lda_corpus():
 
@@ -39,7 +44,48 @@ def load_lda_corpus():
     # (se ci fossero tot topic stamperebbe tot coppie, ma solo se effettivamente nei documenti sono presenti)
     # in ciascuna delle coppie: (id_topic, distribuzione del documento su quel topic quindi più alto è il valore
     # e più il documento parlerà di quel tipic)
-    for doc in corpus_Lda[:10]:
-        print(doc)
 
-    return
+    for doc in corpus_Lda[:10]: #prende i primi 10 in base a come sono stati inseriti nel corpus
+       print(doc)
+
+    return corpus_Lda
+
+def calculate_main_topic_for_parag():
+
+    corpusLda = load_lda_corpus()
+
+    print("******")
+    #print(corpusLda[1]) #questo è il primo documento del corpus, ci si accede come una normale lista per cui con l'indice
+
+    #print(corpusLda[1][0][0]) #così ottengo il primo topic del primo documento
+    #print(corpusLda[1][0][1])
+
+    #creo una lista avente gli id dei topic più rilevanti per ogni documento, in ordine
+    #in modo tale che posso per ogni documento associarvi il topic saliente
+
+    max_list = []
+    for doc in corpusLda:
+        single_list = []
+        max_dict = {}
+        for n in doc:
+            single_list.append(n[1])
+
+        for n in doc:
+            if n[1] == max(single_list) and n[1] not in max_dict.values():
+                max_dict[n[0]] = n[1]
+
+        max_list.append(max_dict)
+
+
+
+    print(max_list)
+
+    list_topicmax = []
+
+    for elem in max_list:
+        for key in elem:
+            list_topicmax.append(key)
+
+    #print(len(list_topicmax)) #stampo la lista ottenuta degli id dei topic più rilevanti per ogni paragrafo
+
+    return list_topicmax
