@@ -1,21 +1,19 @@
-from html.parser import HTMLParser
 from bs4 import BeautifulSoup
 import random
 import storage
 
-
 html_path = "prova.html"
+soup = BeautifulSoup(open(html_path), 'lxml')
 
-def handle_htmlpage(left, right):
+def handle_table(left, right):
 
     map_color = set_topic_random_color()
 
-    color = "#%06x" % random.randint(0, 0xFFFFFF) #genera un colore random (per provare per quando dovro' darlo ai topic)
+    color = "#%06x" % random.randint(0, 0xFFFFFF) #genera un colore random
 
     #serve a parsare l'html e a modificare i contenuti dei tag e gli eventuali attributi
-    soup = BeautifulSoup(open(html_path), 'lxml')
+
     table = soup.find('table', attrs={'id': 'topicshow'} )
-    #contenuto = soup.find('td', attrs={'id': 'textcontent'})
     newrow = soup.new_tag("tr")
 
     contenuto = soup.new_tag("td")
@@ -27,7 +25,6 @@ def handle_htmlpage(left, right):
     # modifico il contenuto del tag con una nuova stringa
     tag_p['style'] = "background-color:"+map_color[right]+";color:white"
 
-    #topic_side = soup.find('td', attrs={'id': 'topictext'})
     topic_side = soup.new_tag("td")
     newrow.append(topic_side)
     tag_h1 = soup.new_tag("h1")
@@ -38,9 +35,36 @@ def handle_htmlpage(left, right):
 
     table.append(newrow)
 
+    return
+
+
+def handle_jquery(list_topic):
+    file_list = []
+    div_list = soup.find('div')
+
+    cursor = storage.paragraphs_coll.distinct('id_story')
+    #cursor2 = storage.paragraphs_coll.find({'id_story': '../texts/fpn-andrews-andrews.txt'}, {'_id': 0, 'descr': 1})
+
+    for k in storage.paragraphs_coll.distinct('id_story'):
+        file_list.append(k)
+
+    for k in cursor:
+        print(k)
+        tag_p = soup.new_tag("p")
+        tag_p['style'] = "cursor:pointer"
+        tag_p.string = k
+        div_list.append(tag_p)
+
+    # strings = []
+    # for k in cursor2:
+    #     strings.append(k['descr'])
+    #
+    # for text in strings:
+    #     print("Scrittura paragrafo " + str(strings.index(text)) + " / " + str(len(strings)))
+    #     handle_table(text, list_topic[strings.index(text)])
+
     with open(html_path, "wb") as prova:
         prova.write(soup.prettify("utf-8"))
-
     return
 
 
@@ -53,3 +77,4 @@ def set_topic_random_color():
         map_topic_color[i] = color
 
     return map_topic_color
+
