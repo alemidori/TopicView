@@ -2,32 +2,34 @@ from bs4 import BeautifulSoup
 import random
 import storage
 
-html_path = "prova.html"
-soup = BeautifulSoup(open(html_path), 'lxml')
+html_path = "fpn-andrews-andrews.html"
+html_file = "prova.html"
+soup_table = BeautifulSoup(open(html_path), 'lxml')
+soup_html = BeautifulSoup(open(html_file), 'lxml')
 
+
+#todo: questa funzione diventera' handle_tables perche' devo riempire tanti html quanti sono i file txt
+#IN PRATICA: fare una query in modo che per ogni diverso file si ricostruisca il contenuto e gli associno i valori
+#dei topic corrispondenti alla posizione del record in mongodb (ancora da vedere)
 def handle_table(left, right):
 
     map_color = set_topic_random_color()
 
-    color = "#%06x" % random.randint(0, 0xFFFFFF) #genera un colore random
+    table = soup_table.find('table', attrs={'id': 'topicshow'} )
+    newrow = soup_table.new_tag("tr")
 
-    #serve a parsare l'html e a modificare i contenuti dei tag e gli eventuali attributi
-
-    table = soup.find('table', attrs={'id': 'topicshow'} )
-    newrow = soup.new_tag("tr")
-
-    contenuto = soup.new_tag("td")
+    contenuto = soup_table.new_tag("td")
     newrow.append(contenuto)
 
-    tag_p = soup.new_tag("p")
+    tag_p = soup_table.new_tag("p")
     contenuto.append(tag_p)
     tag_p.string = left
     # modifico il contenuto del tag con una nuova stringa
     tag_p['style'] = "background-color:"+map_color[right]+";color:white"
 
-    topic_side = soup.new_tag("td")
+    topic_side = soup_table.new_tag("td")
     newrow.append(topic_side)
-    tag_h1 = soup.new_tag("h1")
+    tag_h1 = soup_table.new_tag("h1")
     topic_side.append(tag_h1)
 
     tag_h1.string = "Topic numero " + str(right)
@@ -39,32 +41,41 @@ def handle_table(left, right):
 
 
 def handle_jquery(list_topic):
+
     file_list = []
-    div_list = soup.find('div')
+    div_list = soup_html.find('div')
 
     cursor = storage.paragraphs_coll.distinct('id_story')
-    #cursor2 = storage.paragraphs_coll.find({'id_story': '../texts/fpn-andrews-andrews.txt'}, {'_id': 0, 'descr': 1})
+    cursor2 = storage.paragraphs_coll.find({'id_story': '../texts/fpn-andrews-andrews.txt'}, {'_id': 0, 'descr': 1})
 
     for k in storage.paragraphs_coll.distinct('id_story'):
-        file_list.append(k)
 
-    for k in cursor:
+        file_list.append(str(k).replace("../texts/", "").replace(".txt",".html"))
+
+    for k in file_list:
+
         print(k)
-        tag_p = soup.new_tag("p")
+        tag_p = soup_html.new_tag("p")
         tag_p['style'] = "cursor:pointer"
         tag_p.string = k
         div_list.append(tag_p)
 
-    # strings = []
-    # for k in cursor2:
-    #     strings.append(k['descr'])
+
+    strings = []
+    for k in cursor2:
+        strings.append(k['descr'])
     #
     # for text in strings:
     #     print("Scrittura paragrafo " + str(strings.index(text)) + " / " + str(len(strings)))
     #     handle_table(text, list_topic[strings.index(text)])
 
+
     with open(html_path, "wb") as prova:
-        prova.write(soup.prettify("utf-8"))
+        prova.write(soup_table.prettify("utf-8"))
+
+    with open(html_file, "wb") as prova:
+        prova.write(soup_html.prettify("utf-8"))
+
     return
 
 
