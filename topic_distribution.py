@@ -45,8 +45,8 @@ def load_lda_corpus():
     # in ciascuna delle coppie: (id_topic, distribuzione del documento su quel topic quindi più alto è il valore
     # e più il documento parlerà di quel tipic)
 
-    for doc in corpus_Lda[:10]: #prende i primi 10 in base a come sono stati inseriti nel corpus
-       print(doc)
+    # for doc in corpus_Lda[:10]: #prende i primi 10 in base a come sono stati inseriti nel corpus
+    #    print(doc)
 
     return corpus_Lda
 

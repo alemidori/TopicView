@@ -9,6 +9,8 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 #topic_distribution.load_lda_corpus()
 list_main_topic = topic_distribution.calculate_main_topic_for_parag()
-show_html.handle_jquery(list_main_topic)
+#show_html.handle_jquery()
+#show_html.create_tablesfile()
+show_html.fill_tablesfile(list_main_topic)
 
 print("Processo terminato.")
