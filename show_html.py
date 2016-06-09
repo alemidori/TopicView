@@ -11,7 +11,7 @@ map_topic_color = {}
 #todo: questa funzione diventera' handle_tables perche' devo riempire tanti html quanti sono i file txt
 #IN PRATICA: fare una query in modo che per ogni diverso file si ricostruisca il contenuto e gli si associno i valori
 #dei topic corrispondenti alla posizione del record in mongodb (ancora da vedere)
-def handle_table(pathfile,left, right):
+def handle_table(pathfile,left, topicnum,listwords):
 
     soup_table = BeautifulSoup(open(pathfile), 'lxml')
     table = soup_table.find('table', attrs={'id': 'topicshow'} )
@@ -24,15 +24,16 @@ def handle_table(pathfile,left, right):
     contenuto.append(tag_p)
     tag_p.string = left
     # modifico il contenuto del tag con una nuova stringa
-    tag_p['style'] = "background-color:"+map_topic_color[right]+";color:white"
+    tag_p['style'] = "background-color:"+map_topic_color[topicnum]+";color:white"
 
     topic_side = soup_table.new_tag("td")
     newrow.append(topic_side)
     tag_p2 = soup_table.new_tag("p")
     topic_side.append(tag_p2)
 
-    tag_p2.string = "Topic numero " + str(right)
-    tag_p2['style'] = "background-color:"+map_topic_color[right]+";color:white"
+    tag_p2.string = "Topic numero " + str(topicnum) + " Parole chiave: " \
+                    + listwords[0] + " " + listwords[1] + " " + listwords[2]
+    tag_p2['style'] = "background-color:"+map_topic_color[topicnum]+";color:white"
 
     table.append(newrow)
 
@@ -40,31 +41,6 @@ def handle_table(pathfile,left, right):
         prova.write(soup_table.prettify("utf-8"))
 
     return
-
-
-def handle_jquery():
-
-    # file_list = []
-    # div_list = soup_html.find('div')
-    #
-    # cursor = storage.paragraphs_coll.distinct('id_story')
-    #
-    # for k in storage.paragraphs_coll.distinct('id_story'):
-    #
-    #     file_list.append(str(k).replace("../texts/", "").replace(".txt",".html"))
-    #
-    # for k in file_list:
-    #
-    #     print(k)
-    #     tag_p = soup_html.new_tag("p")
-    #     tag_p['style'] = "cursor:pointer"
-    #     tag_p.string = k
-    #     div_list.append(tag_p)
-    # with open(html_file, "wb") as prova:
-    #     prova.write(soup_html.prettify("utf-8"))
-
-    return
-
 
 def create_tablesfile():
 
@@ -100,7 +76,10 @@ def fill_tablesfile(listmaintopic):
 
         for text in strings:
             print("Scrittura paragrafo " + str(strings.index(text)) + " / " + str(len(strings)))
-            handle_table(str(p).replace("../texts/", "tables/").replace(".txt", ".html"), text, listmaintopic[increment_for_topiclist])
+            listwords = []
+            for v in storage.topics_terms.find({'id_topic':listmaintopic[increment_for_topiclist]}, {'_id':0,'words_list':1}):
+                listwords = v['words_list']
+            handle_table(str(p).replace("../texts/", "tables/").replace(".txt", ".html"), text, listmaintopic[increment_for_topiclist], listwords)
             increment_for_topiclist += 1
     return
 

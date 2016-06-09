@@ -9,6 +9,7 @@ db = client['stories']
 
 paragraphs_coll = db['paragraphs']
 terms_ref_coll = db['terms_ref']
+topics_terms = db['topics_terms']
 
 #prende 3 parametri: l'id del racconto originale nel quale il paragrafo si trova
 #il testo del paragrafo e la posizione all'interno del racconto
@@ -40,3 +41,7 @@ def get_paragr_descr_from_id(idstory, pos):
         a = element['descr']
     return a
 
+
+def insert_topics_3_most_significant_words(id_topic,arraywords):
+    topics_terms.insert_one({'id_topic': id_topic,'words_list': arraywords})
+    return

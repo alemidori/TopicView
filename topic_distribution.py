@@ -15,6 +15,10 @@ def calculate_topic_distribution():
     # che se aumentato serve a migliorare il risultato)
     Lda_model = models.LdaModel(corpus, id2word=dictionary, num_topics=100)
 
+    for k in Lda_model.show_topics(num_topics=100,num_words=3,formatted=False):
+        storage.insert_topics_3_most_significant_words(k[0], [k[1][0][0], k[1][1][0], k[1][2][0]])
+        print(k)
+
     corpus_Lda = Lda_model[corpus]
     #corpora.BleiCorpus.serialize("tmp/corpus_stories.lda-c",corpus)
     corpora.BleiCorpus.serialize('tmp/corpus_stories.lda-c', corpus_Lda)
@@ -27,9 +31,6 @@ def create_dictionary():
     dictionary = corpora.Dictionary(stemmed)
 
     corpus = [dictionary.doc2bow(token) for token in stemmed]
-
-    for doc in corpus[:10]:
-        print(corpus.index(doc))
 
     # salvo il dizionario in una specifica cartella così da utilizzarlo eventualmente in futuro
     # dictionary.save('tmp/dictionary.dict')
@@ -64,19 +65,18 @@ def calculate_main_topic_for_parag():
     #in modo tale che posso per ogni documento associarvi il topic saliente
 
     max_list = []
+    words = []
     for doc in corpusLda:
-        single_list = []
+        single_list = []  # singola lista di topic per ciascun paragrafo
         max_dict = {}
-        for n in doc:
-            single_list.append(n[1])
+        for n in doc:  # per ogni topic nel pragrafo
+            single_list.append(n[1])  # appendo il valore della sua distribuzione
 
         for n in doc:
-            if n[1] == max(single_list) and n[1] not in max_dict.values():
+            if n[1] == max(single_list) and n[1] not in max_dict.values():  # trovo il topic con maggiore distribuzione
                 max_dict[n[0]] = n[1]
 
         max_list.append(max_dict)
-
-
 
     print(max_list)
 
