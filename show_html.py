@@ -91,9 +91,6 @@ def fill_tablesfile(listmaintopic):
             else:
                 specific_words_toshow = specific_words
 
-            #print(specific_words_toshow)
-            #print("-------------")
-
             handle_table(str(p).replace("../texts/", "tables/").replace(".txt", ".html"), text, listmaintopic[increment_for_topiclist], specific_words_toshow)
             increment_for_topiclist += 1
     return
@@ -106,15 +103,3 @@ def set_topic_random_color():
         map_topic_color[i] = "#%06x" % random.randint(0, 0xFFFFFF)
 
     return
-
-
-# tokens = []
-# for k in storage.paragraphs_coll.find({'id_story': '../texts/fpn-andrews-andrews.txt'}, {'_id': 0, 'descr': 1, 'tokens':1}):
-#     tokens.append(k['tokens'])
-#
-# lda_terms_topic1 = []
-# c = storage.topics_terms.find({'id_topic': 1},{'_id':0, 'words_list':1})
-# for x in c:
-#     lda_terms_topic1.append(x['words_list'])
-#
-# get_specific_words(lda_terms_topic1,tokens[0],tokens)

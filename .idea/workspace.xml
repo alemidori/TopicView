@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0100041-0209-4c63-b004-059bba867ea6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDo.rtf" afterPath="$PROJECT_DIR$/ToDo.rtf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_show_topic_distribution.py" afterPath="$PROJECT_DIR$/main_show_topic_distribution.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show_html.py" afterPath="$PROJECT_DIR$/show_html.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splitting.py" afterPath="$PROJECT_DIR$/splitting.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage.py" afterPath="$PROJECT_DIR$/storage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/terms_dictionary.py" afterPath="$PROJECT_DIR$/terms_dictionary.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/corpus_stories.lda-c" afterPath="$PROJECT_DIR$/tmp/corpus_stories.lda-c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/corpus_stories.lda-c.index" afterPath="$PROJECT_DIR$/tmp/corpus_stories.lda-c.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic_distribution.py" afterPath="$PROJECT_DIR$/topic_distribution.py" />
     </list>
     <ignored path="progetto_inforet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_show_topic_distribution.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_show_topic_distribution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_show_topic_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -136,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_html.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="show_html.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/show_html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+            <state relative-caret-position="1575">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -174,9 +164,9 @@
         <option value="$PROJECT_DIR$/topic_distribution.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/storage.py" />
-        <option value="$PROJECT_DIR$/show_html.py" />
         <option value="$PROJECT_DIR$/specificity.py" />
         <option value="$PROJECT_DIR$/main_show_topic_distribution.py" />
+        <option value="$PROJECT_DIR$/show_html.py" />
       </list>
     </option>
   </component>
@@ -926,30 +916,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_topic_distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic_distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -964,16 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/show_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/specificity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-105">
@@ -984,12 +946,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main_topic_distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic_distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main_show_topic_distribution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
