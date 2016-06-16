@@ -1,6 +1,6 @@
 from gensim import corpora, models
 import storage
-import random
+
 
 dictionary = {}
 
@@ -15,9 +15,13 @@ def calculate_topic_distribution():
     # che se aumentato serve a migliorare il risultato)
     Lda_model = models.LdaModel(corpus, id2word=dictionary, num_topics=100)
 
-    for k in Lda_model.show_topics(num_topics=100,num_words=3,formatted=False):
-        storage.insert_topics_3_most_significant_words(k[0], [k[1][0][0], k[1][1][0], k[1][2][0]])
-        print(k)
+    for k in Lda_model.show_topics(num_topics=100,num_words=50,formatted=False):
+        terms = []
+        for i in range(0,50):
+            terms.append(k[1][i][0])
+        storage.insert_topics_3_most_significant_words(k[0], terms)
+        #print(k)
+
 
     corpus_Lda = Lda_model[corpus]
     #corpora.BleiCorpus.serialize("tmp/corpus_stories.lda-c",corpus)
@@ -55,7 +59,6 @@ def calculate_main_topic_for_parag():
 
     corpusLda = load_lda_corpus()
 
-    print("******")
     #print(corpusLda[1]) #questo è il primo documento del corpus, ci si accede come una normale lista per cui con l'indice
 
     #print(corpusLda[1][0][0]) #così ottengo il primo topic del primo documento
@@ -78,7 +81,7 @@ def calculate_main_topic_for_parag():
 
         max_list.append(max_dict)
 
-    print(max_list)
+    #print(max_list)
 
     list_topicmax = []
 

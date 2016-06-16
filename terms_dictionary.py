@@ -2,11 +2,10 @@ import storage
 
 terms_ref = dict()
 
-def update_terms_dictionary(stemmed,original):
+def update_terms_dictionary(stemmed,original): #ammetto ripetizioni di termini originali nella lista
     if stemmed in terms_ref.keys():  # vedo se c'è nelle chiavi
             try:
-                if original not in terms_ref[stemmed]:
-                    terms_ref[stemmed].append(original) #appendo alla lista già esistente per il token un altro "original"
+                terms_ref[stemmed].append(original) #appendo alla lista già esistente per il token un altro "original"
             except KeyError:
                 terms_ref[stemmed] = [original]
     else:

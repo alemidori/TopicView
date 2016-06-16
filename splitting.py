@@ -20,9 +20,9 @@ def process_stories():
             print("Creazione collezione paragrafi...")
             for p in parags:
                 if p and (not p.isspace()):
-                    print(p)
+                    #print(p)
                     stemmed_list = processing.process_string(p)  # applico il processo base a ogni paragrafo
-                    storage.insert_paragraph(file, p, parags.index(p), stemmed_list)  # memorizzo tutto con mongodb
+                    #storage.insert_paragraph(file, p, parags.index(p), stemmed_list)  # memorizzo tutto con mongodb
     return
 
 

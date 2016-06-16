@@ -466,11 +466,12 @@
   $( "p" ).click(function( event ) {
             var text = $(this).text()
             var path = 'tables/'+text
-            var str = path.replace(/\s/g, '');
+            var str = path.replace(/\s/g, '')
             $("title").text(path)
             
             $.ajax({
             url: str,
+            cache: false,
             success: function (data) { 
               $("#table_content").empty()
               $("#table_content").append(data); },

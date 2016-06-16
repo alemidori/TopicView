@@ -10,6 +10,7 @@ db = client['stories']
 paragraphs_coll = db['paragraphs']
 terms_ref_coll = db['terms_ref']
 topics_terms = db['topics_terms']
+term_frequency_corpus = db['term_frequency_corpus']
 
 #prende 3 parametri: l'id del racconto originale nel quale il paragrafo si trova
 #il testo del paragrafo e la posizione all'interno del racconto
@@ -44,4 +45,9 @@ def get_paragr_descr_from_id(idstory, pos):
 
 def insert_topics_3_most_significant_words(id_topic,arraywords):
     topics_terms.insert_one({'id_topic': id_topic,'words_list': arraywords})
+    return
+
+#salvo in una collezione tutti i termini del corpus con le rispettive occorrenze in modo da non doverlo ricalcolare
+def insert_terms_frequency(term, freq):
+    term_frequency_corpus.insert_one({'term': term,'frequency': freq})
     return

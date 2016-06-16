@@ -1,16 +1,13 @@
 from bs4 import BeautifulSoup
 import random
 import storage
-import glob
+import specificity
 
 html_file = "index.html"
 
 soup_html = BeautifulSoup(open(html_file), 'lxml')
 map_topic_color = {}
 
-#todo: questa funzione diventera' handle_tables perche' devo riempire tanti html quanti sono i file txt
-#IN PRATICA: fare una query in modo che per ogni diverso file si ricostruisca il contenuto e gli si associno i valori
-#dei topic corrispondenti alla posizione del record in mongodb (ancora da vedere)
 def handle_table(pathfile,left, topicnum,listwords):
 
     soup_table = BeautifulSoup(open(pathfile), 'lxml')
@@ -31,8 +28,9 @@ def handle_table(pathfile,left, topicnum,listwords):
     tag_p2 = soup_table.new_tag("p")
     topic_side.append(tag_p2)
 
-    tag_p2.string = "Topic numero " + str(topicnum) + " Parole chiave: " \
-                    + listwords[0] + " " + listwords[1] + " " + listwords[2]
+
+    tag_p2.string = "Topic numero " + str(topicnum) + " Parole chiave: " + str(listwords)
+
     tag_p2['style'] = "background-color:"+map_topic_color[topicnum]+";color:white"
 
     table.append(newrow)
@@ -55,6 +53,7 @@ def create_tablesfile():
 
     return
 
+
 def fill_tablesfile(listmaintopic):
 
     set_topic_random_color()
@@ -67,21 +66,39 @@ def fill_tablesfile(listmaintopic):
         stories.append(k)
 
     for p in stories:
-        print("Apro racconto "+str(stories.index(p)))
-        cursor = storage.paragraphs_coll.find({'id_story': p}, {'_id': 0, 'descr': 1})
+        #print("Apro racconto "+str(stories.index(p)))
+        cursor = storage.paragraphs_coll.find({'id_story': p}, {'_id': 0, 'descr': 1, 'tokens':1})
 
         strings = []
+        paragtokens = []
+
         for k in cursor:
             strings.append(k['descr'])
+            paragtokens.append(k['tokens'])
 
         for text in strings:
-            print("Scrittura paragrafo " + str(strings.index(text)) + " / " + str(len(strings)))
+            tokenlist = paragtokens[strings.index(text)]
+            print("Scrittura paragrafo " + str(strings.index(text)) + " / " + str(len(strings)) + " racconto " + str(stories.index(p))+" su "+str(len(stories)))
             listwords = []
             for v in storage.topics_terms.find({'id_topic':listmaintopic[increment_for_topiclist]}, {'_id':0,'words_list':1}):
-                listwords = v['words_list']
-            handle_table(str(p).replace("../texts/", "tables/").replace(".txt", ".html"), text, listmaintopic[increment_for_topiclist], listwords)
+                listwords = v['words_list'] #lista prime 50 parole del topic date dall'LDA
+            #print("Stampo le prime 5 parole specifiche...")
+            specific_words = specificity.get_specific_words(listwords, tokenlist)
+            specific_words_toshow = []
+            if len(specific_words) > 5:
+                for n in range(0,5):
+                    specific_words_toshow.append(specific_words[n])
+            else:
+                specific_words_toshow = specific_words
+
+            #print(specific_words_toshow)
+            #print("-------------")
+
+            handle_table(str(p).replace("../texts/", "tables/").replace(".txt", ".html"), text, listmaintopic[increment_for_topiclist], specific_words_toshow)
             increment_for_topiclist += 1
     return
+
+
 
 def set_topic_random_color():
 
@@ -90,3 +107,14 @@ def set_topic_random_color():
 
     return
 
+
+# tokens = []
+# for k in storage.paragraphs_coll.find({'id_story': '../texts/fpn-andrews-andrews.txt'}, {'_id': 0, 'descr': 1, 'tokens':1}):
+#     tokens.append(k['tokens'])
+#
+# lda_terms_topic1 = []
+# c = storage.topics_terms.find({'id_topic': 1},{'_id':0, 'words_list':1})
+# for x in c:
+#     lda_terms_topic1.append(x['words_list'])
+#
+# get_specific_words(lda_terms_topic1,tokens[0],tokens)
