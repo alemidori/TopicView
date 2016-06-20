@@ -18,14 +18,22 @@
     border-radius: 10px;
   }
   div.filelist {
+    position: absolute;
+    top:10%;
+    left: 0;
     background-color: #969696;
     width:100%; 
-    height:200px; 
+    height:30%; 
     overflow:scroll;
+    padding-top: 1%; 
+    margin: 0%;
   }
 
   #table_content{
   font-family: "Roboto_Slab";
+  position: absolute;
+  top:40%;
+  margin: 0%;
   }
 
   td > p{
@@ -33,6 +41,22 @@
     border-radius: 5px;
     padding: 0.5% 0.5% 0.5% 0.5%;
   }
+
+  #document_title{
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin: 0%;
+    background-color: #4B4B4B;
+    height: 10%;
+    width: 100%;
+    font-family: "Roboto_Slab";
+  }
+
+  .doctitle{margin: 1% 0% 1% 0%;}
 
   </style>
   <script src="jquery-2.2.4.min.js">
@@ -42,6 +66,7 @@
   </title>
  </head>
  <body>
+  
   <div id="div_list" class = "filelist">
    <p class = "customfont">
     fpn-andrews-andrews.html
@@ -494,20 +519,23 @@
     southlit-pagesocial-page.html
    </p>
   </div>
+
     <div id = "table_content"></div>
+    <div id = "document_title"><h1 class="doctitle"></h1></div>
   <script type="text/javascript">
 
-  $("p").hover(function(){
+  $(".customfont").hover(function(){
     $(this).css("background-color", "#646464");
     }, function(){
     $(this).css("background-color", "#4b4b4b");
   });
 
-  $( "p" ).click(function( event ) {
+  $( ".customfont" ).click(function( event ) {
             var text = $(this).text()
             var path = 'tables/'+text
             var str = path.replace(/\s/g, '')
-            $("title").text(path)
+            $("title").text(text)
+            $(".doctitle").text(text)
             
             $.ajax({
             url: str,
@@ -518,6 +546,11 @@
             dataType: 'html'
             });
         });
+
+  $(window).scroll(function(){
+  var fixedtitle = $('#document_title'),
+      scroll = $(window).scrollTop();
+});
 
   </script>
  </body>

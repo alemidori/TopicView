@@ -8,6 +8,7 @@ from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords
 import terms_dictionary
 
+
 stemmed = []
 terms_ref = dict()
 

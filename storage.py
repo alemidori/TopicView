@@ -2,7 +2,8 @@
 a questi utlimi'''
 
 import pymongo
-import json
+from itertools import chain
+from collections import Counter
 
 client = pymongo.MongoClient()
 db = client['stories']
@@ -11,6 +12,7 @@ paragraphs_coll = db['paragraphs']
 terms_ref_coll = db['terms_ref']
 topics_terms = db['topics_terms']
 term_frequency_corpus = db['term_frequency_corpus']
+topics_terms_union = db['topic_union']
 
 #prende 3 parametri: l'id del racconto originale nel quale il paragrafo si trova
 #il testo del paragrafo e la posizione all'interno del racconto
@@ -50,4 +52,28 @@ def insert_topics_3_most_significant_words(id_topic,arraywords):
 #salvo in una collezione tutti i termini del corpus con le rispettive occorrenze in modo da non doverlo ricalcolare
 def insert_terms_frequency(term, freq):
     term_frequency_corpus.insert_one({'term': term,'frequency': freq})
+    return
+
+def save_frequency_allcorpus():
+    alltokens = []
+    print("Sto raccogliendo tutti i token...")
+    # salvo una lista con tutte le liste di token di tutti i documenti del corpus in modo da poter calcolare la specificità
+    for p in paragraphs_coll.find(None, {'_id': 0, 'tokens': 1}):
+        alltokens.append(p['tokens'])
+
+    print("Ho finito di raccogliere i token.")
+
+    print("Conto le occorenze nella lista di token del corpus...")
+    # riduco la lista di liste ad una singola lista con tutto mergiato per poter contare le occorrenze dei termini
+    all_list = chain.from_iterable(alltokens)
+    term_freqs_all = Counter(all_list)
+
+    print("Riduzione ad un'unica lista terminata.")
+
+    for x in term_freqs_all.keys():
+        insert_terms_frequency(x, term_freqs_all[x])
+    return
+
+def save_topic_terms_union(document,topicId,terms_union):
+    topics_terms_union.insert_one({'topic':topicId,'terms_union':terms_union})
     return
