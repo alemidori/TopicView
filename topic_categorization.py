@@ -6,7 +6,7 @@
 
 
 
-def categorize(topicdict):
+def categorize():
 
 
     return

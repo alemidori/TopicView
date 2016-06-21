@@ -1,5 +1,7 @@
 import storage
 import specificity
+import show_html
+from collections import Counter, OrderedDict
 
 def calculate_specific_terms(listmaintopic):
 
@@ -7,17 +9,20 @@ def calculate_specific_terms(listmaintopic):
 
     increment_for_topiclist = 0
 
+    # for k in storage.paragraphs_coll.distinct('id_story'):
+    #     stories.append(k)
+
     for k in storage.paragraphs_coll.distinct('id_story'):
         stories.append(k)
 
     for p in stories:
         print("Documento "+str(stories.index(p)))
 
-
         strings = []
         paragtokens = []
 
-        for k in list(storage.paragraphs_coll.find({'id_story': p}, {'_id': 0, 'descr': 1, 'tokens':1})):
+
+        for k in storage.paragraphs_coll.find({'id_story': p},{'_id':0,'tokens':1}):
             # strings.append(k['descr'])
             # paragtokens.append(k['tokens'])
 
@@ -42,10 +47,13 @@ def calculate_specific_terms(listmaintopic):
 
         final_topic_dict = specificity.get_topic_dict()
 
+        show_html.add_docrow_in_topic_description(stories.index(p))
         for key in final_topic_dict.keys():
 
             storage.save_topic_terms_union(key,final_topic_dict[key])
+            show_html.fill_topicfile(key, sorted(dict(Counter(sum(final_topic_dict[key], [])), reverse="True")))
 
         specificity.empty_topic_dict()
+        print("Topic aggiunti nell'html")
 
     return

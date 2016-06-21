@@ -74,6 +74,6 @@ def save_frequency_allcorpus():
         insert_terms_frequency(x, term_freqs_all[x])
     return
 
-def save_topic_terms_union(document,topicId,terms_union):
+def save_topic_terms_union(topicId,terms_union):
     topics_terms_union.insert_one({'topic':topicId,'terms_union':terms_union})
     return

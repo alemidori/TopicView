@@ -7,4 +7,4 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 topic_distribution.calculate_topic_distribution()
 
-print("Processo terminato.")
+#print("Processo terminato.")

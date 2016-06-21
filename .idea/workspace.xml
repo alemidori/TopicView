@@ -2,164 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0100041-0209-4c63-b004-059bba867ea6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-andrews-andrews.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-arp-arp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-ashby-ashby.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-aughey-aughey.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-avary-avary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-avirett-avirett.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-bagby-bagby.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-balch-balch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-ball-ball.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-battle-lee.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-beard-beard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-betts-betts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-biggs-biggs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-blackford-blackford.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-boggs-boggs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-bokum-bokum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-boyd1-boyd1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-boyd2-boyd2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-branch-branch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-brownd-dbrown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-brownw-brown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-bruce-bruce.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-bryan-bryan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-burge-lunt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-burton-burton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-burtont-burton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-burwell-burwell.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-caldwell-caldwell.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-carroll-carroll.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-chapter-chapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-clay-clay.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-clinkscales-clinksc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-collis-collis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-compton-compton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-copley-copley.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-crumpton-crumpton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-curry-curry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-davisr-davis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-dawson-dawson.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-desaussure-desaussure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-dimitry-dimitry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-dupre-dupre.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-early-early.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-edmondson-edmondson.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-edwards-edwards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-eggleston-eggleston.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-fearn-fearn.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-fee-fee.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-felton-felton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-ferebee-ferebee.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-ford-ford.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-gilman-gilman.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-gordon-gordon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-grandy-grandy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-green-green.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-greenhow-greenhow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-grimball-grimball.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-grimes-grimes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-hamill-hamill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-harland-harland.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-harrison-harrison.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-holden-holden.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-hortonlife-horton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-hortonpoem-hortonpoem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-houghton-houghton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-howard-howard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-hughes-hughes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-hughest-hughes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-jackson-jackson.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-jacobs-jacobs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-janney-janney.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-jervey-jervey.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-johnstond-johnston.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-johnstonr-johnston.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-jones-jones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-jonescharles-jones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-kearney-kearney.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-kell-kell.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-lane-lane.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-leconte-leconte.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-leconteemma-leconte.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-leigh-leigh.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-leon-leon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-lomax-lomax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-macon-macon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-mallard-mallard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-malone-malone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-mason-mason.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-maury-maury.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-mckim-mckim.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-mcleary-mcleary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-merrick-merrick.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-mitchel-mitchel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-montgomery-montgom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-morgan-morgan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-morganjames-morgan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-mosby-mosby.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-moton-moton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-negnurse-negnurse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-negpeon-negpeon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-northup-northup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-oconnor-oconnor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-olive-olive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-patton-patton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-paxton-paxton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-pickens-pickens.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-pickett-pickett.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-plake-plake.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-pringle-pringle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-pryor-pryor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-rankin-rankin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-ripley-ripley.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-ripleyflag-ripley.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-robinson-robinson.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-robson-robson.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-roper-roper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-royall-royall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-sawyer-sawyer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-saxon-saxon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-shepherd-shepherd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-sherrill-sherrill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-smedes-smedes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-steward-steward.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-stiles-stiles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-stone-stone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-taylor-taylor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-thomas-thomas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-velazquez-velazquez.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-veney-veney.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-ward-ward.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-washeducation-washing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-washington-washing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-watterson1-watterson1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-watterson2-watterson2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-whitaker-whitaker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-williams-williams.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-wise-wise.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-wood-wood.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-worsham-worsham.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-wright-wright.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-wrightmarcus-wright.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-wyeth-wyeth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-young-young.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/fpn-zettler-zettler.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/nc-jones85-jones85.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/neh-dsmith-dsmith.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/neh-jonestom-jones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/neh-roper-roper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/southlit-chesnut-maryches.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tables/southlit-pagesocial-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prova copia.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tabprova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/topic.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_show_topic_distribution.py" afterPath="$PROJECT_DIR$/main_show_topic_distribution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processing.py" afterPath="$PROJECT_DIR$/processing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_topic_distribution.py" afterPath="$PROJECT_DIR$/main_topic_distribution.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show_html.py" afterPath="$PROJECT_DIR$/show_html.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specificity.py" afterPath="$PROJECT_DIR$/specificity.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage.py" afterPath="$PROJECT_DIR$/storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic_categorization.py" afterPath="$PROJECT_DIR$/topic_categorization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic_specific_terms.py" afterPath="$PROJECT_DIR$/topic_specific_terms.py" />
     </list>
     <ignored path="progetto_inforet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -190,10 +44,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="topic_categorization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topic_categorization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="splitting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splitting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="300">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="e#249#263#0" expanded="true" />
@@ -202,23 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="storage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-              <folding>
-                <element signature="e#119#133#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="topic_distribution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topic_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="61" column="6" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="6" />
+            <state relative-caret-position="-90">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -229,10 +81,46 @@
       <file leaf-file-name="main_topic_specification.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_topic_specification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topic_specific_terms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topic_specific_terms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+              <folding>
+                <element signature="e#119#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_html.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/show_html.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="126" column="32" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,46 +129,10 @@
       <file leaf-file-name="specificity.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specificity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+            <state relative-caret-position="140">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topic_specific_terms.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/topic_specific_terms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_show_topic_distribution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_show_topic_distribution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show_html.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/show_html.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="70" column="129" selection-start-line="70" selection-start-column="129" selection-end-line="70" selection-end-column="129" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -304,7 +156,6 @@
       <list>
         <option value="$PROJECT_DIR$/text_processing.py" />
         <option value="$PROJECT_DIR$/text_splitting.py" />
-        <option value="$PROJECT_DIR$/main_topic_distribution.py" />
         <option value="$PROJECT_DIR$/handle_jquery.py" />
         <option value="$PROJECT_DIR$/terms_dictionary.py" />
         <option value="$PROJECT_DIR$/splitting.py" />
@@ -312,12 +163,13 @@
         <option value="$PROJECT_DIR$/processing.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/topic_categorization.py" />
-        <option value="$PROJECT_DIR$/main_show_topic_distribution.py" />
-        <option value="$PROJECT_DIR$/show_html.py" />
         <option value="$PROJECT_DIR$/main_topic_specification.py" />
-        <option value="$PROJECT_DIR$/storage.py" />
-        <option value="$PROJECT_DIR$/topic_specific_terms.py" />
         <option value="$PROJECT_DIR$/specificity.py" />
+        <option value="$PROJECT_DIR$/storage.py" />
+        <option value="$PROJECT_DIR$/main_topic_distribution.py" />
+        <option value="$PROJECT_DIR$/main_show_topic_distribution.py" />
+        <option value="$PROJECT_DIR$/topic_specific_terms.py" />
+        <option value="$PROJECT_DIR$/show_html.py" />
       </list>
     </option>
   </component>
@@ -352,6 +204,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -390,7 +243,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -696,46 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#16#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#119#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic_distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_show_topic_distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -765,9 +577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#16#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,9 +647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#16#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,9 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#16#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,45 +811,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/site-packages/bs4/element.py">
+    <entry file="file://$PROJECT_DIR$/handle_jquery.py" />
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/site-packages/pymongo-3.2.2-py3.5-macosx-10.5-x86_64.egg/pymongo/message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+          <caret line="282" column="0" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handle_jquery.py" />
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/site-packages/pymongo-3.2.2-py3.5-macosx-10.5-x86_64.egg/pymongo/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/site-packages/pymongo-3.2.2-py3.5-macosx-10.5-x86_64.egg/pymongo/mongo_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="797" column="0" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/site-packages/pymongo-3.2.2-py3.5-macosx-10.5-x86_64.egg/pymongo/cursor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1089" column="0" selection-start-line="1089" selection-start-column="0" selection-end-line="1089" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_show_topic_distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main_topic_distribution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="390">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#148#178#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#16#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/splitting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="300">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="e#249#263#0" expanded="true" />
@@ -1061,78 +898,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/topic_categorization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/show_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="70" column="129" selection-start-line="70" selection-start-column="129" selection-end-line="70" selection-end-column="129" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_show_topic_distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic_distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="61" column="6" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/storage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
           <folding>
             <element signature="e#119#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_topic_specification.py">
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="140">
+          <caret line="871" column="0" selection-start-line="871" selection-start-column="0" selection-end-line="871" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic_distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specificity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="140">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main_topic_specification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/topic_specific_terms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="810">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="126" column="32" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

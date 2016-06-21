@@ -6,10 +6,11 @@ import topic_specific_terms
 #serve per stampare anche i log durante la fase di esecuzione
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-
 def main(list_main_topic):
+    show_html.set_topic_random_color()
     #show_html.create_tablesfile()
     #show_html.fill_tables(list_main_topic)
+
     return
 
-print("Processo terminato.")
+#print("Processo terminato.")

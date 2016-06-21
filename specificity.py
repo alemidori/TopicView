@@ -5,7 +5,7 @@ import topic_categorization
 
 topic_dict = {}
 
-def get_specific_words(topicId,Ldawords, tokenlist, topic_dict):
+def get_specific_words(topicId,Ldawords, tokenlist):
 
     specific_words = []
     final_words_list = []
@@ -13,8 +13,7 @@ def get_specific_words(topicId,Ldawords, tokenlist, topic_dict):
     #print("1. Conto le occorrenze nella lista di token del paragrafo...")
     # creo un dizionario in cui salvo ogni termine e la sua frequenza nella lista
     term_freqs = Counter(tokenlist)
-    a = list(storage.term_frequency_corpus.aggregate([{'$group': {'_id': None, 'count': {'$sum': 1}}}]))
-    total_f = a[0]['count']
+    total_f = list(storage.term_frequency_corpus.aggregate([{'$group': {'_id': None, 'count': {'$sum': 1}}}]))[0]['count']
 
 
     #print("2. Per ogni parola dell'Lda calcolo la sua specificità nel paragrafo...")
