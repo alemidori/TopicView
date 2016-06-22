@@ -4,7 +4,7 @@
   <style type="text/css">
   @font-face {
     font-family: "Roboto_Slab";
-    src: url('Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
+    src: url('../Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
     }
     p.customfont { 
     color: #ffffff;
@@ -55,14 +55,31 @@
     width: 100%;
     font-family: "Roboto_Slab";
   }
+  a{
+    font-family: "Roboto_Slab";
+position: absolute;
+left: 3%;
+top: 30%;
+background-color: #dddddd;
+color: #4b4b4b;
+border-radius: 10px;
+font-size: 14px;
+padding: 0.5%;
+cursor: pointer;
+text-decoration: none;
+  }
+
+  a:hover{
+    background-color: white;
+  }
 
   .doctitle{margin: 1% 0% 1% 0%;}
 
   </style>
-  <script src="jquery-2.2.4.min.js">
+  <script src="../jquery-2.2.4.min.js">
   </script>
   <title>
-   TopicView
+   Topic View
   </title>
  </head>
  <body>
@@ -521,7 +538,8 @@
   </div>
 
     <div id = "table_content"></div>
-    <div id = "document_title"><h1 class="doctitle"></h1></div>
+    <div id = "document_title"><a href="topic.html" target="_blank">Topic description</a><h1 class="doctitle"></h1></div>
+    
   <script type="text/javascript">
 
   $(".customfont").hover(function(){

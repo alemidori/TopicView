@@ -8,7 +8,7 @@ html_file = "htmls/index.html"
 soup_html = BeautifulSoup(open(html_file), 'lxml')
 map_topic_color = {}
 
-def create_html_files():
+def create_tablesfile():
 
     html_file_list = []
 
@@ -52,34 +52,18 @@ def handle_table(pathfile,left, topicnum,listwords):
 
     return
 
-def fill_tables(listmaintopic):
-
-    set_topic_random_color()
+def fill_tables(doc,text,topic,finallisttoshow):
 
     stories = []
     for k in storage.paragraphs_coll.distinct('id_story'):
         stories.append(k)
-    for p in stories:
 
-        cursor = storage.paragraphs_coll.find({'id_story': p}, {'_id': 0, 'descr': 1, 'tokens': 1})
+    handle_table(str(doc).replace("../texts/", "htmls/tables/").replace(".txt", ".html"), text,
+                 topic, finallisttoshow)
 
-        increment_for_topiclist = 0
-        specific_words_toshow = []
-
-        for k in cursor:
-            for v in storage.topics_terms_union.find({'topic':listmaintopic[increment_for_topiclist]},{'_id':0,'terms_union':1}):
-                specific_words_toshow = v['terms_union']
-
-            handle_table(str(p).replace("../texts/", "tables/").replace(".txt", ".html"), k['descr'],
-                         listmaintopic[increment_for_topiclist], specific_words_toshow)
-            increment_for_topiclist += 1
     return
 
 def fill_topicfile(topic,termslist):
-
-    # lo chiamo provvisoriamente da qui ma devo chiamarlo dal main perché gli stessi colori devono valere
-    # sia per il file topic.html che per le tabelle con i paragrafi
-    set_topic_random_color()
 
     pathfile = "htmls/topic.html"
     soup_table = BeautifulSoup(open(pathfile), 'lxml')

@@ -56,7 +56,7 @@ def get_specific_words(topicId,Ldawords, tokenlist):
 
     #topic_categorization.categorize(topic_dict)
 
-    return
+    return final_words_list
 
 
 def get_topic_dict():
