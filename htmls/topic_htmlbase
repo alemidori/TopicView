@@ -6,10 +6,6 @@
     font-family: "Roboto_Slab";
     src: url('../Roboto_Slab/RobotoSlab-Light.ttf') format('truetype');
     }
-    @font-face {
-    font-family: "Roboto_Slab_Bold";
-    src: url('../Roboto_Slab/RobotoSlab-Bold.ttf') format('truetype');
-    }
     #topics {
     font-family: "Roboto_Slab";
     position: absolute;

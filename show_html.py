@@ -21,7 +21,7 @@ def create_tablesfile():
 
     return
 
-def handle_table(pathfile,left, topicnum,listwords):
+def handle_table(pathfile,left, topicnum,totallistwords,listwords):
 
     soup_table = BeautifulSoup(open(pathfile), 'lxml')
     table = soup_table.find('table', attrs={'id': 'topicshow'} )
@@ -34,16 +34,35 @@ def handle_table(pathfile,left, topicnum,listwords):
     contenuto.append(tag_p)
     tag_p.string = left
     # modifico il contenuto del tag con una nuova stringa
-    tag_p['style'] = "background-color:"+map_topic_color[topicnum]+";color:white"
+    contenuto['style'] = "background-color:"+map_topic_color[topicnum]
 
     topic_side = soup_table.new_tag("td")
     newrow.append(topic_side)
     tag_p2 = soup_table.new_tag("p")
     topic_side.append(tag_p2)
 
-    tag_p2.string = "Topic numero " + str(topicnum) + " Parole chiave: " + str(listwords)
+    tag_p2.string = "Topic numero " + str(topicnum) + " Termini specifici: "
+    topic_side['style'] = "background-color:" + map_topic_color[topicnum]
 
-    tag_p2['style'] = "background-color:"+map_topic_color[topicnum]+";color:white"
+    final_toshow = []
+    if len(totallistwords) > 10:
+        for n in range(0,10):
+            final_toshow.append(totallistwords[n])
+    else:
+        final_toshow = totallistwords
+
+    for t in final_toshow:
+        if t in listwords:
+            bold = soup_table.new_tag("p")
+            bold.string = t
+            bold['class'] = "bold"
+            topic_side.append(bold)
+        else:
+            notbold = soup_table.new_tag("p")
+            notbold.string = t
+            notbold['class'] = "notbold"
+            topic_side.append(notbold)
+
 
     table.append(newrow)
 
@@ -52,14 +71,14 @@ def handle_table(pathfile,left, topicnum,listwords):
 
     return
 
-def fill_tables(doc,text,topic,finallisttoshow):
+def fill_tables(doc,text,topic,totaltopicspec,texttopicspec):
 
     stories = []
     for k in storage.paragraphs_coll.distinct('id_story'):
         stories.append(k)
 
     handle_table(str(doc).replace("../texts/", "htmls/tables/").replace(".txt", ".html"), text,
-                 topic, finallisttoshow)
+                 topic, sum(totaltopicspec,[]),texttopicspec)
 
     return
 

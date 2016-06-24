@@ -3,24 +3,35 @@
  <head>
   <style type="text/css">
   @font-face {
-    font-family: "Roboto_Slab";
-    src: url('../Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
+    font-family: "Roboto_Slab_Light";
+    src: url('../Roboto_Slab/RobotoSlab-Light.ttf') format('truetype');
+    }
+    @font-face {
+    font-family: "Roboto_Slab_Bold";
+    src: url('../Roboto_Slab/RobotoSlab-Bold.ttf') format('truetype');
+    }
+    p{
+      color: white;
     }
     p.customfont { 
     color: #ffffff;
-    font-family: "Roboto_Slab";
+    font-family: "Roboto_Slab_Light";
+    border-radius: 10px;
     cursor: pointer;
     background-color: #4B4B4B;
     text-align: center;
     border: none;
     margin: 0% 40% 1% 40%; 
     padding: 0.5% 0% 0.5% 0%;
+  }
+  td{
     border-radius: 10px;
+    padding: 1%;
   }
   div.filelist {
     position: absolute;
     top:10%;
-    left: 0;
+    left: 0%;
     background-color: #969696;
     width:100%; 
     height:30%; 
@@ -30,16 +41,10 @@
   }
 
   #table_content{
-  font-family: "Roboto_Slab";
+  font-family: "Roboto_Slab_Light";
   position: absolute;
-  top:40%;
-  margin: 0%;
-  }
-
-  td > p{
-    margin-bottom: 0px;
-    border-radius: 5px;
-    padding: 0.5% 0.5% 0.5% 0.5%;
+  left: 0%;
+  top:38%;
   }
 
   #document_title{
@@ -53,10 +58,10 @@
     background-color: #4B4B4B;
     height: 10%;
     width: 100%;
-    font-family: "Roboto_Slab";
+    font-family: "Roboto_Slab_Light";
   }
   a{
-    font-family: "Roboto_Slab";
+    font-family: "Roboto_Slab_Light";
 position: absolute;
 left: 3%;
 top: 30%;
@@ -74,6 +79,15 @@ text-decoration: none;
   }
 
   .doctitle{margin: 1% 0% 1% 0%;}
+
+  p.bold{
+  font-family: "Roboto_Slab_Bold";
+  display: inline;
+}
+p.notbold{
+  font-family: "Roboto_Slab_Light";
+  display: inline;
+}
 
   </style>
   <script src="../jquery-2.2.4.min.js">

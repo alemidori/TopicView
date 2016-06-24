@@ -20,7 +20,8 @@ def calculate_specific_terms(listmaintopic):
     for p in stories:
         print("Documento "+str(stories.index(p)))
 
-        for k in storage.paragraphs_coll.find({'id_story': p},{'_id':0,'tokens':1, 'descr':1}):
+        finallist = []
+        for k in storage.paragraphs_coll.find({'id_story': p},{'_id':0,'tokens':1}):
             # strings.append(k['descr'])
             # paragtokens.append(k['tokens'])
 
@@ -31,7 +32,7 @@ def calculate_specific_terms(listmaintopic):
                 listwords = v['words_list'] #lista prime 50 parole del topic date dall'LDA
             #print("Stampo le prime 5 parole specifiche...")
 
-            finallist = specificity.get_specific_words(listmaintopic[increment_for_topiclist],listwords, k['tokens'])
+            finallist.append(specificity.get_specific_words(listmaintopic[increment_for_topiclist],listwords, k['tokens']))
 
             #specific_words_toshow = []
             # if len(specific_words) > 5:
@@ -40,17 +41,23 @@ def calculate_specific_terms(listmaintopic):
             # else:
             #     specific_words_toshow = specific_words
 
-            show_html.fill_tables(p, k['descr'], listmaintopic[increment_for_topiclist], finallist)
-
             increment_for_topiclist += 1
 
         final_topic_dict = specificity.get_topic_dict()
 
+        print("Scrivo tabella nell'html...")
+        increment_for_topiclist = 0
+        for k in storage.paragraphs_coll.find({'id_story': p}, {'_id': 0, 'descr': 1}):
+            show_html.fill_tables(p, k['descr'], listmaintopic[increment_for_topiclist],
+                                  final_topic_dict[listmaintopic[increment_for_topiclist]],finallist[increment_for_topiclist])
+            increment_for_topiclist += 1
+
+        print("Tabella aggiunta nell'html")
+
         show_html.add_docrow_in_topic_description(stories.index(p))
 
         for key in final_topic_dict.keys():
-
-            storage.save_topic_terms_union(key,final_topic_dict[key])
+            # storage.save_topic_terms_union(key,final_topic_dict[key])
             show_html.fill_topicfile(key, dict(Counter(sum(final_topic_dict[key], []))))
 
         specificity.empty_topic_dict()

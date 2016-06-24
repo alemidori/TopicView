@@ -34,7 +34,7 @@ def get_specific_words(topicId,Ldawords, tokenlist):
             except KeyError:
                 specificity = -1
 
-            if cmath.phase(specificity) > 0.00:
+            if cmath.phase(specificity) > -0.5:
                 specific_words.append(word)
 
     #vado a prendere il termine originale con maggiore occorrenza nella collezione di riferimento per i termini stemmizzati
