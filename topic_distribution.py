@@ -43,7 +43,7 @@ def create_dictionary():
 
 def load_lda_corpus():
 
-    corpus_Lda = corpora.BleiCorpus("tmp/corpus_stories.lda-c")
+    corpus_Lda = corpora.BleiCorpus("tmp/corpus_stories.lda-c") #carico il corpus precedentemente salvato
     # stampa una serie di array aventi 100 coppie corrispondenti in questo caso ai 100 topic (se un topic non è per
     # niente presente in un documento la coppia non verrà mostrata affatto)
     # (se ci fossero tot topic stamperebbe tot coppie, ma solo se effettivamente nei documenti sono presenti)
@@ -58,17 +58,10 @@ def load_lda_corpus():
 def calculate_main_topic_for_parag():
 
     corpusLda = load_lda_corpus()
-
-    #print(corpusLda[1]) #questo è il primo documento del corpus, ci si accede come una normale lista per cui con l'indice
-
-    #print(corpusLda[1][0][0]) #così ottengo il primo topic del primo documento
-    #print(corpusLda[1][0][1])
-
     #creo una lista avente gli id dei topic più rilevanti per ogni documento, in ordine
     #in modo tale che posso per ogni documento associarvi il topic saliente
 
     max_list = []
-    words = []
     for doc in corpusLda:
         single_list = []  # singola lista di topic per ciascun paragrafo
         max_dict = {}
@@ -81,14 +74,10 @@ def calculate_main_topic_for_parag():
 
         max_list.append(max_dict)
 
-    #print(max_list)
-
     list_topicmax = []
 
     for elem in max_list:
         for key in elem:
             list_topicmax.append(key)
-
-    #print(len(list_topicmax)) #stampo la lista ottenuta degli id dei topic più rilevanti per ogni paragrafo
 
     return list_topicmax

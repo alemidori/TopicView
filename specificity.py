@@ -1,7 +1,7 @@
 import storage
 import cmath
 from collections import Counter
-import topic_categorization
+
 
 topic_dict = {}
 
@@ -52,9 +52,6 @@ def get_specific_words(topicId,Ldawords, tokenlist):
 
     else:
         topic_dict[topicId].append(final_words_list)
-
-
-    #topic_categorization.categorize(topic_dict)
 
     return final_words_list
 

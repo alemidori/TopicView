@@ -10,5 +10,3 @@ def main():
     show_html.set_topic_random_color()
     show_html.create_tablesfile()
     return
-
-#print("Processo terminato.")

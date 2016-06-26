@@ -9,4 +9,3 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 list_main_topic = topic_distribution.calculate_main_topic_for_parag()
 topic_specific_terms.calculate_specific_terms(list_main_topic)
-#main_show_topic_distribution.main(list_main_topic)

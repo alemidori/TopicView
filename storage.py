@@ -6,13 +6,13 @@ from itertools import chain
 from collections import Counter
 
 client = pymongo.MongoClient()
-db = client['stories']
+db = client['stories'] #database
 
-paragraphs_coll = db['paragraphs']
-terms_ref_coll = db['terms_ref']
-topics_terms = db['topics_terms']
-term_frequency_corpus = db['term_frequency_corpus']
-topics_terms_union = db['topic_union']
+paragraphs_coll = db['paragraphs'] #collezione paragrafi con relativi tokens, racconto di riferimento e posizione nel racconto
+terms_ref_coll = db['terms_ref'] #collezione dei token con i rispettivi termini originali dai quali provengono
+topics_terms = db['topics_terms'] #collezione primi 50 termini restituiti dal modello lda per ogni topic
+term_frequency_corpus = db['term_frequency_corpus'] #collezione termini di tutto il corpus e relative occorrenze
+
 
 #prende 3 parametri: l'id del racconto originale nel quale il paragrafo si trova
 #il testo del paragrafo e la posizione all'interno del racconto
@@ -72,8 +72,4 @@ def save_frequency_allcorpus():
 
     for x in term_freqs_all.keys():
         insert_terms_frequency(x, term_freqs_all[x])
-    return
-
-def save_topic_terms_union(topicId,terms_union):
-    topics_terms_union.insert_one({'topic':topicId,'terms_union':terms_union})
     return
