@@ -44,6 +44,8 @@ def handle_table(pathfile,left, topicnum,totallistwords,listwords):
     tag_p2.string = "Topic numero " + str(topicnum) + " Termini specifici: "
     topic_side['style'] = "background-color:" + map_topic_color[topicnum]
 
+    totallistwords = list(set(totallistwords))
+
     final_toshow = []
     if len(totallistwords) > 10:
         for n in range(0,10):

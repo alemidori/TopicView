@@ -12,7 +12,8 @@ paragraphs_coll = db['paragraphs'] #collezione paragrafi con relativi tokens, ra
 terms_ref_coll = db['terms_ref'] #collezione dei token con i rispettivi termini originali dai quali provengono
 topics_terms = db['topics_terms'] #collezione primi 50 termini restituiti dal modello lda per ogni topic
 term_frequency_corpus = db['term_frequency_corpus'] #collezione termini di tutto il corpus e relative occorrenze
-
+story_support = db['story_support'] #collezione di supporto per creare indici su determinati attributi (token,descr)
+#su ciascun paragrafo
 
 #prende 3 parametri: l'id del racconto originale nel quale il paragrafo si trova
 #il testo del paragrafo e la posizione all'interno del racconto

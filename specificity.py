@@ -6,7 +6,6 @@ from collections import Counter
 topic_dict = {}
 
 def get_specific_words(topicId,Ldawords, tokenlist):
-
     specific_words = []
     final_words_list = []
 
@@ -52,6 +51,7 @@ def get_specific_words(topicId,Ldawords, tokenlist):
 
     else:
         topic_dict[topicId].append(final_words_list)
+
 
     return final_words_list
 
