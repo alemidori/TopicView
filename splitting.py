@@ -8,7 +8,7 @@ import storage
 import glob
 import processing
 
-path = "../texts/*.txt"
+path = "../gtexts/*.txt"
 files = glob.glob(path) #lista di file txt da spezzare in paragrafi
 
 def process_stories():
@@ -22,7 +22,8 @@ def process_stories():
                 if p and (not p.isspace()): #se il paragrafo ha almeno un carattere
                     #print(p)
                     stemmed_list = processing.process_string(p)  # applico il processo base a ogni paragrafo
-                    #storage.insert_paragraph(file, p, parags.index(p), stemmed_list)  # memorizzo tutto con mongodb
+                    storage.insert_paragraph(file, p, parags.index(p), stemmed_list)  # memorizzo tutto con mongodb
+
     return
 
 

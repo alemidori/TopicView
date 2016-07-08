@@ -9,4 +9,7 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 def main():
     show_html.set_topic_random_color()
     show_html.create_tablesfile()
+    show_html.fill_index()
     return
+
+main()

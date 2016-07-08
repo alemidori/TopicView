@@ -7,7 +7,6 @@ from operator import itemgetter
 
 def calculate_specific_terms(listmaintopic):
 
-    main_show_topic_distribution.main()
     stories = []
 
     for k in storage.paragraphs_coll.distinct('id_story'):

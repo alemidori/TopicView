@@ -8,11 +8,24 @@ from collections import Counter
 client = pymongo.MongoClient()
 db = client['stories'] #database
 
-paragraphs_coll = db['paragraphs'] #collezione paragrafi con relativi tokens, racconto di riferimento e posizione nel racconto
-terms_ref_coll = db['terms_ref'] #collezione dei token con i rispettivi termini originali dai quali provengono
-topics_terms = db['topics_terms'] #collezione primi 50 termini restituiti dal modello lda per ogni topic
-term_frequency_corpus = db['term_frequency_corpus'] #collezione termini di tutto il corpus e relative occorrenze
-story_support = db['story_support'] #collezione di supporto per creare indici su determinati attributi (token,descr)
+# paragraphs_coll = db['paragraphs'] #collezione paragrafi con relativi tokens, racconto di riferimento e posizione nel racconto
+# terms_ref_coll = db['terms_ref'] #collezione dei token con i rispettivi termini originali dai quali provengono
+# topics_terms = db['topics_terms'] #collezione primi 50 termini restituiti dal modello lda per ogni topic
+# term_frequency_corpus = db['term_frequency_corpus'] #collezione termini di tutto il corpus e relative occorrenze
+# story_support = db['story_support'] #collezione di supporto per creare indici su determinati attributi (token,descr)
+# #su ciascun paragrafo
+
+#*******************************************************************************************************************
+#*******************************************************************************************************************
+#*******************************************************************************************************************
+# parte di valutazione con nuovo db e nuovi metodi che lavorano su di esso
+dbevaluation = client['evaluation'] #database creato per la valutazione del sistema
+
+paragraphs_coll = dbevaluation['paragraphs'] #collezione paragrafi con relativi tokens, racconto di riferimento e posizione nel racconto
+terms_ref_coll = dbevaluation['terms_ref'] #collezione dei token con i rispettivi termini originali dai quali provengono
+topics_terms = dbevaluation['topics_terms'] #collezione primi 50 termini restituiti dal modello lda per ogni topic
+term_frequency_corpus = dbevaluation['term_frequency_corpus'] #collezione termini di tutto il corpus e relative occorrenze
+story_support = dbevaluation['story_support'] #collezione di supporto per creare indici su determinati attributi (token,descr)
 #su ciascun paragrafo
 
 #prende 3 parametri: l'id del racconto originale nel quale il paragrafo si trova
@@ -74,3 +87,7 @@ def save_frequency_allcorpus():
     for x in term_freqs_all.keys():
         insert_terms_frequency(x, term_freqs_all[x])
     return
+
+
+
+
