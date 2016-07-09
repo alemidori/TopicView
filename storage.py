@@ -20,6 +20,9 @@ db = client['stories'] #database
 #*******************************************************************************************************************
 # parte di valutazione con nuovo db e nuovi metodi che lavorano su di esso
 dbevaluation = client['evaluation'] #database creato per la valutazione del sistema
+yelpdb = client['yelp_dataset']
+business_coll = yelpdb['business']
+business_terms_coll = dbevaluation['evaluation']
 
 paragraphs_coll = dbevaluation['paragraphs'] #collezione paragrafi con relativi tokens, racconto di riferimento e posizione nel racconto
 terms_ref_coll = dbevaluation['terms_ref'] #collezione dei token con i rispettivi termini originali dai quali provengono

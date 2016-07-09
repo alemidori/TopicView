@@ -4,6 +4,7 @@ import logging
 import storage
 import main_topic_distribution
 import main_topic_specification
+import main_evaluation
 
 #serve per stampare anche i log durante la fase di esecuzione
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
@@ -20,6 +21,8 @@ storage.save_frequency_allcorpus()
 main_topic_distribution.main()
 
 main_topic_specification.main()
+
+main_evaluation.main()
 
 
 print("Collezioni create. Processo terminato.")

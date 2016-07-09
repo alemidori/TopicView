@@ -2,21 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0100041-0209-4c63-b004-059bba867ea6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/EWMwV5V9BxNs_U6nNVMeqw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Es300Ys1XXPYg8aI7BKVYQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/FHqwLwpLjUjeLP-IdG_o_w.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/FV16IeXJp2W6pnghTz2FAw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/G0nUhYF2q4tnoOPwCjXLig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/GGyHZtnAA5LBgouB-32ARA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/HMr_KN63f6MzM9h8Wije3Q.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/H_SuH7uLiYahDMbNBB9kog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/HbUQ_3dlm3uCacmhTEMnuA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Ht8mXLuqJSTPrU9kvzosUA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/HyfFenprdpIA4rmKu6DW3g.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/IRYj1b1-mlXqABVsl9SoqQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Jm11YjDPn9l74pbodGQ8hQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/JokKtdXU7zXHcr20Lrk29A.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/JpHE7yhMS5ehA9e8WG_ETg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/K8pM6qQdYu5h6buRE1-_sw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/KJnVuzpveyDrHARVNZaYVg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/KKucN3P6aH84MCfPr56a8g.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/KjymOs12Mpy0Kd54b7T9MA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/KpZLxHrp2PIP8tLBsPLiww.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/LLDGTT7FExklkQvHebEjRg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/MuIXnv7Oq7X3-4aEsp9dDA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/N50HceZf1595UtU867u4uQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/NGJDjdiDJHmN2xxU7KauuA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/NsnZ5GhagXBKrCOelxVQxw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/OUpcKYGbVYgSS1Oo7aQ56Q.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/OiCxoAIoBvEWxf7p1qVVmA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/OoeTGTkxvSZqqicZ8ljJjw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/PXviRcHR1mqdH4vRc2LEAQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/PqTX5j9yfsPbd1qQCA1EwA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Pz7SWZQhxL6ZbhL9jE2NTA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/QRXv7Jvq_SuiiT_SKvbdig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Q_Rwcv9APBLggk2KAsBEvg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/QbmcCE_cLq4WO8ZMKImaLw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/QhwkFogGQA-Ar176Ul5PUQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/QnAzW6KMSciUcuJ20oI3Bw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/RbkLrCFa2AL1K25GCnNK8A.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/SHfUGBOznEtDhK6WbVrvIw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/SLyacGZuMUKqrQJEooSkjw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/SsGNAc9U-aKPZccnaDtFkA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/SsTxjxo8qvqBMvan1rzNzg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/TBDOkqwPv_pAICCO4O3QkA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/TWD8c5-P7w9v-2KX_GSNZQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/V1nEpIRmEa1768oj_tuxeQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/VVeogjZya58oiTxK7qUjAQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/WIlklz81DcJkUWJThbnJbQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/WNy1uzcmm_UHmTyR--o5IA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/WT-v-DgQvW38DewVyTLdTA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/WnY4HPJIYNXOPQH2mFzl2Q.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/XDYnLQC8ViZejuCDp4eCwg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Xhg93cMdemu5pAMkDoEdtQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/YKOvlBNkF4KpUP9q7x862w.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/YNQgak-ZLtYJQxlDwN-qIg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/YacTpiq0ZptFcXD7I-kdGA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/YrIfgzLj0DPStJ1ESAS_Qg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Z0kyK8wCBNGkkUT9UrMWcg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/ZP6qFq7LUh6Tr7WHPoOW6g.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/Zf7fMSe7yuW727JyikdBsg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/eWPFXL1Bmu1ImtIa2Rqliw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/f3EcPjqKftEznBSs2oQVRg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/gGeVLZ9j_wAYKbaqgnKSJA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/ggoYlZeQhATwb_yGSntfdw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/hW0Ne_HTHEAgGF1rAdmR-g.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/jOuERtVf7QePnK9ZcdH5XA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/jf67Z1pnwElRSXllpQHiJg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/kEC7OlpPnZRxCUyVwq7hig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/kV768Ru9q3JKNNaKuKAKCw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/lliksv-tglfUz1T3B3vgvA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/m7icEOgYpM3B8TlbYsKPzg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/mDdqifuTrfXAOfxiLMGu5Q.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/mPDE4dMqAyLZNCR-tEYQ5w.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/n_ZuPiXgB4YPbkuSINpabQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/naLrErBuJr9IWd6_rv6-XQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/ngNvH4sxnH9aMukTZ67R_Q.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/r1YB-iVpNM8oP2eEqyaVbg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/rBPQuQgTcMtUq5-RYhY2uQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/rZbHg4ACfN3iShdsT47WKQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/ripCiWZ0MblMZSLrIKQAKA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/ryvMJK6AlbU35HKrlFT61w.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/s5-VDvUqyYnD8RG3LPqnbQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/sIyHTizqAiGu12XMLX3N3g.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/tFU2Js_nbIZOrnKfYJYBBg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/tbTc7094zwIYAtU-0NkU4w.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/tqu42L0qXzkvYKSruOz0IA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/u9wjRhUjySkHPa_hG3kFOg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/uJYw4p59AKh8c8h5yWMdOw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/uKSX1n1RoAzGq4bV8GPHVg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/vSf0pqvaLp5sVSjJPeOqqQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/vT12uXtdBQ10_lUcl-M40w.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/vxxMqBaAHuWdx4impsLSSA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/wfofFm3AqtyK_ujNQ893mQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/xNcqwYAUeVOhe3KNC4Xjaw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/xfwRO04KbAPw_zRotCfWQQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/xyTJYlbE_MLouK6rCou6zg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/y4Qyf4PPSOHdQFTr3Zi_KA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/y6NFyThUU2wtTNa0rX7VrA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/ynK2ljcx5S1qSxouBrN5Xg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/z3SyT8blMIhsZNvKJgKcRA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/zTCCbg7mGslxACL5KlAPIQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmls/tables_eval/zt1TpTuJ6y9n551sw9TaEg.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDo.rtf" afterPath="$PROJECT_DIR$/ToDo.rtf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/index.html" afterPath="$PROJECT_DIR$/htmls/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables/fpn-bagby-bagby.html" afterPath="$PROJECT_DIR$/htmls/tables/fpn-bagby-bagby.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables/fpn-balch-balch.html" afterPath="$PROJECT_DIR$/htmls/tables/fpn-balch-balch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables/fpn-ball-ball.html" afterPath="$PROJECT_DIR$/htmls/tables/fpn-ball-ball.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables/fpn-battle-lee.html" afterPath="$PROJECT_DIR$/htmls/tables/fpn-battle-lee.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables/fpn-beard-beard.html" afterPath="$PROJECT_DIR$/htmls/tables/fpn-beard-beard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/topic.html" afterPath="$PROJECT_DIR$/htmls/topic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/index_eval.html" afterPath="$PROJECT_DIR$/htmls/index_eval.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/-7yF42k0CcJhtPw51oaOqQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/-7yF42k0CcJhtPw51oaOqQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/-sC66z4SO3tR7nFCjfQwuQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/-sC66z4SO3tR7nFCjfQwuQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/05fTEsjUPVo5jks8PpNKCQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/05fTEsjUPVo5jks8PpNKCQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/1U1GRksKXF7q8FKcW0e5VQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/1U1GRksKXF7q8FKcW0e5VQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/1fjgZaW6_qTYoAaSCfI-VQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/1fjgZaW6_qTYoAaSCfI-VQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/1yx2zLskVTe5WQdYjL2Apw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/1yx2zLskVTe5WQdYjL2Apw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/2e2e7WgqU1BnpxmQL5jbfw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/2e2e7WgqU1BnpxmQL5jbfw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/34uJtlPnKicSaX1V8_tu1A.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/34uJtlPnKicSaX1V8_tu1A.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/3MmHmJXr8Ltk_Z5EGE4KUw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/3MmHmJXr8Ltk_Z5EGE4KUw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/3f-RP2-EE94eifGnepUBpg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/3f-RP2-EE94eifGnepUBpg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/4UVhuOLaMm2-34SrW8y-ag.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/4UVhuOLaMm2-34SrW8y-ag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/4bEjOyTaDG24SY5TxsaUNQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/4bEjOyTaDG24SY5TxsaUNQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/4uGHPY-OpJN08CabtTAvNg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/4uGHPY-OpJN08CabtTAvNg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/5GKbGn9-fAgQ0njSh3OJ8A.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/5GKbGn9-fAgQ0njSh3OJ8A.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/5paMI5Hhciyl09yGpzdoJw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/5paMI5Hhciyl09yGpzdoJw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/5rDosv0aIBhLg81IMSnlyg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/5rDosv0aIBhLg81IMSnlyg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/65EJzWvIUnE1YwpfW6Jl1Q.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/65EJzWvIUnE1YwpfW6Jl1Q.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/6LM_Klmp3hOP0JmsMCKRqQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/6LM_Klmp3hOP0JmsMCKRqQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/6i8vY-6gCQd5v6lZ8yne5Q.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/6i8vY-6gCQd5v6lZ8yne5Q.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/8IMEf_cj8KyTQojhNOyoPg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/8IMEf_cj8KyTQojhNOyoPg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/8Pzdk19tA2bKlKDSgwWqoQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/8Pzdk19tA2bKlKDSgwWqoQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/8buIr1zBCO7OEcAQSZko7w.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/8buIr1zBCO7OEcAQSZko7w.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/A3Jv-FFRsDEWXxKJ6ZIxfg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/A3Jv-FFRsDEWXxKJ6ZIxfg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/ASOiJ8MmbBTgK2D1_MQrqg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/ASOiJ8MmbBTgK2D1_MQrqg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/AeKTQBtPRDHLAFL9bzbUnA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/AeKTQBtPRDHLAFL9bzbUnA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/AtjsjFzalWqJ7S9DUFQ4bw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/AtjsjFzalWqJ7S9DUFQ4bw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/BW1JCE3Qj4uIokg7kLUL7w.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/BW1JCE3Qj4uIokg7kLUL7w.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/BqD7X5CHXnJ14YbBBlLx1w.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/BqD7X5CHXnJ14YbBBlLx1w.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/BqrTtox0JbG-P_DKBB5bBw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/BqrTtox0JbG-P_DKBB5bBw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/BuJ40Y7c_ERYmkQGoFb8zQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/BuJ40Y7c_ERYmkQGoFb8zQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/CZjcFdvJhksq9dy58NVEzw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/CZjcFdvJhksq9dy58NVEzw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/CrlViaCIcMeQuZc63tbdQA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/CrlViaCIcMeQuZc63tbdQA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/DJlb6DLzT1yK5ipnL2I1dA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/DJlb6DLzT1yK5ipnL2I1dA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/DO3Gk17RyJVW7zYMCtYPnw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/DO3Gk17RyJVW7zYMCtYPnw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/DUdBbrvqfaqUe9GYKmYNtA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/DUdBbrvqfaqUe9GYKmYNtA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/DjOxXobyGDwWt89q4z1twg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/DjOxXobyGDwWt89q4z1twg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/ES-j5yNTgmgbL4He0h6otA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/ES-j5yNTgmgbL4He0h6otA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/_CHH9KN1bO5cs_GHjQ-r1A.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/_CHH9KN1bO5cs_GHjQ-r1A.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/_v6HIliEOn0l0YaAmBOrxw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/_v6HIliEOn0l0YaAmBOrxw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/aGbjLWzcrnEx2ZmMCFm3EA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/aGbjLWzcrnEx2ZmMCFm3EA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/aRkYtXfmEKYG-eTDf_qUsw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/aRkYtXfmEKYG-eTDf_qUsw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/ateowLnq6kpgNNWHzCDByQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/ateowLnq6kpgNNWHzCDByQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/bYhpy9u8fKkGhYHtvYXazQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/bYhpy9u8fKkGhYHtvYXazQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/cMvN1j-LK64zqmT4vnl8NA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/cMvN1j-LK64zqmT4vnl8NA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/cN6qpVw6RaSrSI-JGGF4Tw.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/cN6qpVw6RaSrSI-JGGF4Tw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/eI28wIzw6ZclI9jGXhtbow.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/eI28wIzw6ZclI9jGXhtbow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/eLPld7Q17XxlclFGzZQX5g.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/eLPld7Q17XxlclFGzZQX5g.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/eP9T-2a94ChFAl1Rd2R0jg.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/eP9T-2a94ChFAl1Rd2R0jg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/eRRyfI6QVvSviirRF8UGzQ.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/eRRyfI6QVvSviirRF8UGzQ.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/tables_eval/eq6lQI039SBLC6sHm3idGA.html" afterPath="$PROJECT_DIR$/htmls/tables_eval/eq6lQI039SBLC6sHm3idGA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/topic_eval.html" afterPath="$PROJECT_DIR$/htmls/topic_eval.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_show_topic_distribution.py" afterPath="$PROJECT_DIR$/main_show_topic_distribution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_topic_distribution.py" afterPath="$PROJECT_DIR$/main_topic_distribution.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_topic_specification.py" afterPath="$PROJECT_DIR$/main_topic_specification.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show_html.py" afterPath="$PROJECT_DIR$/show_html.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splitting.py" afterPath="$PROJECT_DIR$/splitting.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage.py" afterPath="$PROJECT_DIR$/storage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/corpus_stories.lda-c" afterPath="$PROJECT_DIR$/tmp/corpus_stories.lda-c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/corpus_stories.lda-c.index" afterPath="$PROJECT_DIR$/tmp/corpus_stories.lda-c.index" />
@@ -41,13 +181,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="splitting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splitting.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#249#263#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,21 +196,9 @@
       <file leaf-file-name="storage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state relative-caret-position="960">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +206,7 @@
       <file leaf-file-name="main_topic_distribution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_topic_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="120">
               <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="e#1#26#0" expanded="true" />
@@ -87,19 +215,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_topic_specification.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_topic_specification.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_show_topic_distribution.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_show_topic_distribution.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_show_topic_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -111,10 +227,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="specificity.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="specificity.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specificity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="90">
               <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -123,23 +239,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic_specific_terms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topic_specific_terms.py">
+      <file leaf-file-name="main_topic_specification.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_topic_specification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_evaluation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_evaluation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_html.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/show_html.py">
+      <file leaf-file-name="evaluation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="processing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/processing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topic_specific_terms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topic_specific_terms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,16 +318,18 @@
         <option value="$PROJECT_DIR$/topic_categorization.py" />
         <option value="$PROJECT_DIR$/topic_distribution.py" />
         <option value="$PROJECT_DIR$/specificity.py" />
-        <option value="$PROJECT_DIR$/topic_specific_terms.py" />
         <option value="$PROJECT_DIR$/main_topic_distribution.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/processing.py" />
-        <option value="$PROJECT_DIR$/storage.py" />
         <option value="$PROJECT_DIR$/resize.py" />
         <option value="$PROJECT_DIR$/splitting.py" />
-        <option value="$PROJECT_DIR$/main_topic_specification.py" />
         <option value="$PROJECT_DIR$/main_show_topic_distribution.py" />
         <option value="$PROJECT_DIR$/show_html.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/main_topic_specification.py" />
+        <option value="$PROJECT_DIR$/storage.py" />
+        <option value="$PROJECT_DIR$/topic_specific_terms.py" />
+        <option value="$PROJECT_DIR$/main_evaluation.py" />
+        <option value="$PROJECT_DIR$/evaluation.py" />
       </list>
     </option>
   </component>
@@ -264,7 +416,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_topic_specification">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main_show_topic_distribution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,23 +451,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="show_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="progetto_inforet" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_html.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="specificity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,6 +481,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="progetto_inforet" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_topic_specification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main_evaluation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="progetto_inforet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_evaluation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -487,17 +639,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main_show_topic_distribution" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.show_html" />
-      <item index="3" class="java.lang.String" itemvalue="Python.specificity" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main_topic_specification" />
+      <item index="2" class="java.lang.String" itemvalue="Python.specificity" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main_topic_specification" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main_evaluation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main_topic_specification" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main_show_topic_distribution" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.specificity" />
-        <item index="4" class="java.lang.String" itemvalue="Python.show_html" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main_evaluation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main_topic_specification" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main_show_topic_distribution" />
+        <item index="4" class="java.lang.String" itemvalue="Python.specificity" />
       </list>
     </recent_temporary>
   </component>
@@ -519,25 +671,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39879155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781956" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39879155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -556,23 +708,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/terms_dictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#249#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -630,7 +765,7 @@
         <state relative-caret-position="255">
           <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding>
-            <element signature="e#249#263#0" expanded="true" />
+            <element signature="e#249#263#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -692,7 +827,7 @@
         <state relative-caret-position="165">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#249#263#0" expanded="true" />
+            <element signature="e#249#263#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,16 +974,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resize.py" />
+    <entry file="file://$PROJECT_DIR$/splitting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#249#263#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_topic_specification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic_specific_terms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/processing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
+        <state relative-caret-position="585">
           <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specificity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_topic_distribution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="120">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="e#1#26#0" expanded="true" />
@@ -856,59 +1069,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resize.py" />
-    <entry file="file://$PROJECT_DIR$/splitting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#249#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic_specific_terms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_topic_specification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/show_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,16 +1085,6 @@
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specificity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

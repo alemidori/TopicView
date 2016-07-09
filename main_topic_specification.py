@@ -3,6 +3,7 @@ import logging
 import show_html
 import topic_specific_terms
 import main_show_topic_distribution
+#import main_evaluation
 
 #serve per stampare anche i log durante la fase di esecuzione
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
@@ -15,3 +16,7 @@ def main():
     return
 
 main()
+
+
+
+
